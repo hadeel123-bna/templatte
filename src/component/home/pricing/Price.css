@@ -1,0 +1,55 @@
+.Price .row{
+    margin: 45px 0px;
+}
+
+
+.card {
+  background-color: #f8f9fa; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; /* Bordure arrondie pour un effet plus doux */
+  padding: 20px; /* Espacement à l'intérieur de la carte */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre portée pour un effet d'élévation */
+  transition: transform 0.3s ease-in-out; /* Animation lors du survol de la carte */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Soulève la carte lors du survol */
+}
+
+.card-header {
+    background-color: rgb(136, 212, 227);
+  color: white; /* Couleur du texte dans l'en-tête */
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px 5px 0 0; /* Arrondir seulement le haut de la carte */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000;
+}

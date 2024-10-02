@@ -1,0 +1,53 @@
+.banner {
+    background: url('lorem.png') no-repeat center center; /* Ajustez le chemin si nécessaire */
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    height: 400px; /* Vous pouvez ajuster la hauteur en fonction de vos besoins */
+    margin: 60px 0px;
+  }
+  
+  .banner .overlay {
+    background-color: rgba(162, 207, 236, 0.5); /* Couleur noire avec opacité pour la superposition */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center; /* Centre le contenu verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+  }
+  
+  .banner .overlay h2, .banner .overlay p, .banner .overlay button {
+    z-index: 2; /* Le texte est au-dessus de la superposition */
+    color: white; /* Assure que le texte est visible sur la superposition */
+  }
+  
+  .banner .overlay h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .banner .overlay p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .banner .overlay button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner .overlay button:hover {
+    background-color: #f0f0f0;
+  }
+  

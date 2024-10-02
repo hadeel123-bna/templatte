@@ -1,0 +1,65 @@
+header{
+    background: url('lorem.png')  ;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+header h2{
+color: #fff;
+font-size: 50px;
+font-weight: bold;
+margin: 35px 0px ;
+letter-spacing: 1px;
+
+}
+
+header p{
+    color: #fff;
+    font-size: 16px;
+    margin: 25px 0px;}
+
+
+header form{
+    margin: 25px auto;
+    background-color: #fff;
+    width: 50%;
+    max-width: 100%;
+    padding: 7px;
+    border-radius: 30px;
+
+
+}
+header form  input{
+    background-color: #fff;
+    bottom: 1px solid #fff;
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    padding: 7px;
+    border-color: transparent;
+    outline-color: #fff;
+
+}
+header form button{
+    background-color:rgb(136, 212, 227);
+    border-radius: 30px;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    bottom: 1px solid #fff;
+
+
+}
+
+
+
